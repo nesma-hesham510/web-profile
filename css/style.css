@@ -1,0 +1,201 @@
+body {font-family: 'Source Sans Pro', sans-serif;
+    background: ghostwhite;
+}
+
+.header {background-image: url("../img/graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    padding-top: 25px;
+}
+
+.container {width: 1000px;
+margin: auto;
+}
+
+.learn {text-align: center;
+    padding-top: 200px;
+}
+
+.header .container .learn h1 {font-size: 60px;
+font-weight: bold;
+color: #20b2aa;
+border-top: 4px solid #20b2aa;
+border-bottom: 4px solid #20b2aa;
+width: 570px;
+padding: 10px 0;
+margin: auto;
+}
+
+.header .container .learn button {background: none;
+margin-top: 30px;
+border: 2px solid #20b2aa;
+font-size: 25px;
+padding: 10px 25px;
+font-weight: bold;
+color: #20b2aa;}
+
+.navbar {background: wheat;
+    margin-top: 260px;
+}
+
+.navbar .container h3 {font-size: 30px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+nav .container span {color: #20b2aa;
+}
+
+nav .container ul {margin-top: -80px;
+float: right;
+list-style: none;
+}
+
+nav .container ul li {display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav .container ul li a {text-decoration: none;
+color: black;}
+
+nav .container ul li.active a,
+nav .container ul li a:hover {color: #20b2aa;
+}
+
+.features .container {display: flex;}
+
+.features .container h2 {font-weight: bolder;
+font-size: 30px;}
+
+.about-me {background: #F2F2F2;
+}
+
+.about-me .container {display: flex;
+height: 600px;
+}
+
+.about-me .container img {
+height: 90%;
+padding-top: 30px;}
+
+.about-me .container .content {padding-left: 80px;
+padding-top: 20px;}
+
+.about-me .container .content h2 {font-weight: bolder;
+font-size: 25px;}
+
+
+.skills{
+       display: flex;
+       flex-wrap:wrap;
+   }
+
+.about-me .container .content .skills .skill { width:48%;
+    padding-left: 2px;
+}
+
+.about-me .container .content  i.icon {
+
+    color: #20b2aa;
+margin-right:5px;}
+
+.portfolio .container .req {width: 50%;
+    height: 80%;
+float: left;}
+
+.portfolio .container .req h3 {font-weight: bolder;
+    font-size: 25px;}
+
+.portfolio .container .req p {line-height: 150%}
+
+.portfolio .container .req .contact {background: none;
+    margin-top: 10px;
+    border: 2px solid #20b2aa;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #20b2aa;}
+
+.portfolio .container .progress {padding-top: 10px;
+    margin-left: 60px;}
+
+.portfolio .progress .techniques div {background-color:rgb(223, 222, 222);
+height:25px;
+margin-left: 47%;}
+
+.portfolio .progress .techniques div span {
+    background-color: #20b2aa;
+    height:25px;
+    display:block;
+    line-height:25px;
+    text-align:right;
+    color:#FFF;
+    font-weight:bold;}
+
+.work {margin-top: 50px;
+background: #F2F2F2;
+padding-top: 5px;
+height: 950px;}
+
+.work .text h3 {text-align: center;
+font-size: 25px;}
+
+.work .text p {text-align: center;}
+
+.work .container .images {display: flex;
+flex-wrap: wrap;
+}
+
+.work .container .images img {width: 28%;
+margin: 15px;
+padding: 3px;
+border: 1px solid grey;}
+
+.contact {background: #20b2aa;
+padding-top: 40px;
+padding-bottom: 90px;
+}
+
+.contact .container {display: flex;
+flex-wrap: wrap;}
+
+.contact .container .left {width: 45%;
+}
+
+.contact .container form {margin-left: 100px;
+padding-top: 20px;
+}
+
+.contact .container form input[type= "text"] {background: #b6efeb;
+border: 0;
+width: 400px;
+color:black;
+padding:5px;
+margin-bottom: 10px;}
+
+.contact .container form textarea {background: #b6efeb;
+width: 400px;
+height: 100px;}
+
+.contact .container form input[type= "submit"] {background: #035953;
+color: #b6efeb;
+padding: 10px 20px;
+margin-top: 10px;
+border: 0;}
+
+footer .container {display: flex;
+flex-wrap: wrap;}
+
+footer .container ul {list-style: none;
+margin: 0;
+padding-top: 5px;
+padding-left: 480px;
+float: right;
+margin-left: 150px;}
+
+footer .container ul li {display: inline-block;
+padding: 5px;
+font-size: 25px;
+color: #035953;}
